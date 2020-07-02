@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/bh4lndpbj3r2yit/stage-1.pth?dl=0'
+export_file_url = 'https://drive.google.com/file/d/18KqS5UV3sjlEo43N5Ol8kJMvKNWE5F9L/view?usp=sharing'
 export_file_name = 'trained_model.pkl'
 
 classes = ['city', 'coypu', 'taupier']
