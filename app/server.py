@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://www.dropbox.com/s/bh4lndpbj3r2yit/stage-1.pth?dl=0'
-export_file_name = 'stage-1.pkl'
+export_file_name = 'trained_model.pkl'
 
 classes = ['city', 'coypu', 'taupier']
 path = Path(__file__).parent
